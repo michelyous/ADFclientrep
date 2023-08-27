@@ -10,7 +10,7 @@ stages:
           - task: TerraformInstaller@0
             inputs:
               terraformVersion: '1.1.0'
-          - task: TerraformTaskV1@0
+          - task: TerraformCLI@0
             inputs:
               provider: 'azurerm'
               command: 'init'
