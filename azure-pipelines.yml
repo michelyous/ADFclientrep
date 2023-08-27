@@ -15,4 +15,5 @@ stages:
         provider: 'azurerm'
         command: 'init'
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        allowTelemetryCollection: true
         backendServiceArm: 'myserviceconnection'
